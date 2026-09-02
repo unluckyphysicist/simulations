@@ -1,0 +1,16 @@
+# COMSOL-generated recovery, backup, and lock files
+*.mph.autosave
+*.mph.lock
+*.mph.recovery
+*.mph~
+*.mph.bak
+
+# Common generated or cached working files
+*.class
+*.log
+*.tmp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
