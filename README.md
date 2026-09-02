@@ -8,7 +8,7 @@ This repository collects compact, reproducible COMSOL Multiphysics models for ca
 
 | Project | Focus | Models |
 | --- | --- | ---: |
-| [Project Zero](./Project-Zero/) | Classical viscous-flow benchmarks | 5 |
+| [Project Ø](./Project-Zero/) | Classical viscous-flow benchmarks | 5 |
 
 ## Requirements
 
