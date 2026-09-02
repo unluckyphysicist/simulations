@@ -1,16 +1,16 @@
-# Project Zero - Canonical Viscous Flows
+# Project Ø — Canonical Viscous Flows
 
-Project Zero is a five-model study of steady, incompressible, fully developed laminar flow. The collection separates the effects of wall motion, pressure forcing, and cross-sectional geometry, then combines them in a finite rectangular channel.
+Project Ø is a five-model study of steady, incompressible, fully developed laminar flow. The collection separates the effects of wall motion, pressure forcing, and cross-sectional geometry, then combines them in a finite rectangular channel.
 
 ## Model catalog
 
 | No. | Simulation | Driving mechanism | Geometry | Analytical benchmark |
 | ---: | --- | --- | --- | --- |
 | 01 | [Couette flow](./01-couette-flow/) | Moving wall | Infinite parallel plates | Linear velocity profile |
-| 02 | [Plane Poiseuille flow](./02-plane-poiseuille-flow/) | Pressure gradient | Infinite parallel plates | Parabolic velocity profile |
-| 03 | [Circular-pipe Poiseuille flow](./03-circular-pipe-poiseuille-flow/) | Pressure gradient | Circular pipe | Hagen-Poiseuille profile |
-| 04 | [Rectangular Couette flow](./04-rectangular-couette-flow/) | Moving wall | Rectangular channel | Finite-width Fourier series |
-| 05 | [Rectangular Couette-Poiseuille flow](./05-rectangular-couette-poiseuille-flow/) | Moving wall and pressure gradient | Rectangular channel | Superposed finite-width series |
+| 02 | [Plane Poiseuille flow](./02-plane-poiseuille/) | Pressure gradient | Infinite parallel plates | Parabolic velocity profile |
+| 03 | [Circular-pipe Poiseuille flow](./03-circular-poiseuille/) | Pressure gradient | Circular pipe | Hagen-Poiseuille profile |
+| 04 | [Rectangular Couette flow](./04-rectangular-couette/) | Moving wall | Rectangular channel | Finite-width Fourier series |
+| 05 | [Rectangular Couette-Poiseuille flow](./05-rectangular-couette-poiseuille/) | Moving wall and pressure gradient | Rectangular channel | Superposed finite-width series |
 
 ## Analytical solution for Model 05
 
@@ -18,7 +18,7 @@ The full derivation is provided in:
 
 [Rectangular Couette-Poiseuille Flow - Analytical Solution (PDF)](./Rectangular%20Couette-Poiseuille%20flow%20Analytical%20Solution.pdf)
 
-The corresponding [Model 05 README](./05-rectangular-couette-poiseuille-flow/) states the exact series solution for the repository geometry and gives validation checks for COMSOL.
+The corresponding [Model 05 README](./05-rectangular-couette-poiseuille/) states the exact series solution for the repository geometry and gives validation checks for COMSOL.
 
 ## Shared physical model
 
