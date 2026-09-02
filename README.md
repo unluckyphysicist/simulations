@@ -4,6 +4,8 @@ Computational fluid-dynamics models by **Arian Ashrafi** (`@unluckyphysicist`).
 
 This repository collects compact, reproducible COMSOL Multiphysics models for canonical transport-phenomena problems. The first collection, **Project Ø**, studies fully developed laminar flows driven by moving walls, pressure gradients, or both.
 
+Models created and tested using COMSOL Multiphysics 6.4.
+
 ## Projects
 
 | Project | Focus | Models |
